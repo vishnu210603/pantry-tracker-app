@@ -13,16 +13,18 @@ function SignIn() {
         <div className="flex flex-col  items-center mt-10">
           <img 
             src="https://static.wixstatic.com/media/474e97_3adcffeaf219479a9cc4774e57c1838c~mv2.png/v1/fill/w_353,h_318,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/manual-img_bc9570e4.png"
-            className="w-20 h-20"
+            className="w-20 h-20 mt-4"
             alt="Pantry Tracker Logo"
           />
+          <div className='mt-4 flex justify-center items-center'>
           <button 
             onClick={googleLoginHandler} 
-            className="flex items-center justify-center gap-2 w-fit h-12 px-4 rounded-2xl text-white bg-violet-500"
+            className="flex items-center justify-center gap-2 w-fit h-12 px-4 rounded-2xl text-white bg-violet-600"
           >
-            <FcGoogle className="text-2xl mr-2" />
+            <FcGoogle className="text-4xl bg-black rounded-full mr-4" />
             Sign in with Google
           </button>
+          </div>
         </div>
       </div>
     </main>
