@@ -132,13 +132,13 @@ export default function Home() {
                 <div className="flex gap-2">
                   <button
                     onClick={() => increaseAmountHandler(expense.id)}
-                    className="btn btn-primary"
+                    className="btn"
                   >
                     + Add
                   </button>
                   <button
                     onClick={() => decreaseAmountHandler(expense.id)}
-                    className="btn btn-primary"
+                    className="btn"
                     disabled={expense.total <= 1}
                   >
                     - Remove
