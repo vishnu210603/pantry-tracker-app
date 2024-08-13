@@ -19,7 +19,7 @@ function SignIn() {
           <div className='mt-4 flex justify-center items-center'>
           <button 
             onClick={googleLoginHandler} 
-            className="flex items-center justify-center gap-2 w-fit h-12 px-4 rounded-2xl text-white bg-violet-600"
+            className="flex items-center justify-center gap-2 w-fit h-20  rounded-2xl text-white bg-violet-600"
           >
             <FcGoogle className="text-4xl bg-black rounded-full mr-4" />
             Sign in with Google
